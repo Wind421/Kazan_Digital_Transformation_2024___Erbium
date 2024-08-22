@@ -16,4 +16,4 @@
 |Векторизатор|LogisticRegression|KNeighborsClassifier|GaussianNB|LinearDiscriminantAnalysis|CatBoostClassifier|MLPClassifier|
 |------------|------------------|--------------------|----------|--------------------------|------------------|-------------|
 |TF-IDF|0.65|0.49|0.47|0.6|0.53|0.6|
-|Word2Vec|0.91|0.93|0.89|0.88|0.94|0.95|
+|Word2Vec|0.91|0.93|0.89|0.88|0.94|**0.95**|
