@@ -19,4 +19,5 @@
 |Word2Vec|0.91|0.93|0.89|0.88|0.94|**0.94**|
 
 MLPClassifier был выбран как самая легкая, быстрая и точная модель.
+
 По скорости она превосходит LogisticRegression и KNeighborsClassifier, а по весу в 10к меньше чем CatBoostClassifier.
