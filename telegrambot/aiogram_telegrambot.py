@@ -1,4 +1,4 @@
-import bd_telebot as bd
+import database_telegrambot as bd
 
 from aiogram import Router, F
 from aiogram import Bot, Dispatcher
