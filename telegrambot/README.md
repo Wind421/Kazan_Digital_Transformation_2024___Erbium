@@ -21,10 +21,5 @@ psycopg2 - для запросов на языке PosgreSql на локальн
 
 Работоспособность кода можно проверить по следующей ссылке https://t.me/kiotalllnotnotbot, написав мне в личные сообщения в телеграмме https://t.me/DashaWind
 
-Ниже представлены скришоты работы телеграмм бота
-![image](https://github.com/user-attachments/assets/12795e4e-ea10-497d-9b1f-ceba6d384cf3)
-![image](https://github.com/user-attachments/assets/8ead8475-09ef-42d6-8c18-84175b2deb77)
-![image](https://github.com/user-attachments/assets/8b6d62d5-2236-4085-8373-a3e14c8f551b)
-
 
 
