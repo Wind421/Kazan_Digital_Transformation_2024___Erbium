@@ -257,7 +257,7 @@ async def callback_ideafix(callback_query: CallbackQuery):
         [InlineKeyboardButton(text='Изменить текст', callback_data=f"change_text_{idea_id}_{view}")],
         [InlineKeyboardButton(text='Изменить адрес', callback_data=f"change_adress_{idea_id}_{view}")],
         [InlineKeyboardButton(text='Изменить фото', callback_data=f"change_photo_{idea_id}_{view}")],
-        [InlineKeyboardButton(text='Оставить как есть', callback_data=f"ideafix_Все отлично!_None_None")]
+        [InlineKeyboardButton(text='Оставить как есть', callback_data=f"ideafix_Все отлично!_None_{view}")]
         ])
         await bot.send_message(callback_query.message.chat.id, 'Что вы хотите изменить?',reply_markup=markup)
     elif but_name=='Удалить':
