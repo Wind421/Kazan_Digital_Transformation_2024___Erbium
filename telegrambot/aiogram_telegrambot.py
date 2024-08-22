@@ -311,7 +311,6 @@ async def process_change(message: Message, state: FSMContext):
 
         await bot.send_message(message.chat.id, 'Давай посмотрим что получилось:)')
         await send_final_message(message.chat.id, message.from_user.id,view,idea_id)
-        await ChangeIdeaState.clear()
 
     elif current_state == ChangeIdeaState.text.state:
         bd.set_text(idea_id, message.text)
@@ -319,7 +318,6 @@ async def process_change(message: Message, state: FSMContext):
 
         await bot.send_message(message.chat.id, 'Давай посмотрим что получилось:)')
         await send_final_message(message.chat.id, message.from_user.id,view,idea_id)
-        await ChangeIdeaState.clear()
 
     elif current_state == ChangeIdeaState.adress.state:
         bd.set_adress(idea_id, message.text)
@@ -327,7 +325,6 @@ async def process_change(message: Message, state: FSMContext):
 
         await bot.send_message(message.chat.id, 'Давай посмотрим что получилось:)')
         await send_final_message(message.chat.id, message.from_user.id,view,idea_id)
-        await ChangeIdeaState.clear()
 
     elif current_state == ChangeIdeaState.photo.state and message.photo:
         photo = message.photo[-1]
@@ -340,7 +337,6 @@ async def process_change(message: Message, state: FSMContext):
         
         await bot.send_message(message.chat.id, 'Давай посмотрим что получилось:)')
         await send_final_message(message.chat.id, message.from_user.id,view,idea_id)
-        await ChangeIdeaState.clear()
     else:
         await message.reply('Пожалуйста, отправьте корректную информацию.')
     
