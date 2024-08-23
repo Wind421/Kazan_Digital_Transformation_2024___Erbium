@@ -24,6 +24,7 @@ MLPClassifier был выбран как самая легкая, быстрая
 По скорости она превосходит LogisticRegression и KNeighborsClassifier, а по весу в 10к меньше чем CatBoostClassifier.
 
 Ниже представлены результаты классифкации комментариев одной из групп вк:
-![image](https://github.com/user-attachments/assets/312c577b-a000-4d87-9197-450dd07eb867)
-![image](https://github.com/user-attachments/assets/467c7292-9225-4158-b970-9617e93a52c9)
+|||
+|-|-|
+|![image](https://github.com/user-attachments/assets/312c577b-a000-4d87-9197-450dd07eb867)|![image](https://github.com/user-attachments/assets/467c7292-9225-4158-b970-9617e93a52c9)|
 
