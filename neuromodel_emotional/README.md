@@ -5,6 +5,7 @@
 + emotional_train_tfidf.ipynb - содержит векторизацию постов с помощью TF-IDF и обучение моделей
 + emotional_train_word2vec.ipynb - содержит векторизацию постов с помощью Word2Vec и обучение моделей, а также тест лучшей модели
 + mlp_emotion_word2vec.pkl - лучшая модель sklearn.neural_network MLPClassifier
++ requests_vk.py - скрипт для парсинга комментариев с указанной группы VK
 
 Датасет собран из двух: 
 + https://www.kaggle.com/datasets/alexandersemiletov/toxic-russian-comments
@@ -21,3 +22,8 @@
 MLPClassifier был выбран как самая легкая, быстрая и точная модель.
 
 По скорости она превосходит LogisticRegression и KNeighborsClassifier, а по весу в 10к меньше чем CatBoostClassifier.
+
+Ниже представлены результаты классифкации комментариев одной из групп вк:
+![image](https://github.com/user-attachments/assets/312c577b-a000-4d87-9197-450dd07eb867)
+![image](https://github.com/user-attachments/assets/467c7292-9225-4158-b970-9617e93a52c9)
+
